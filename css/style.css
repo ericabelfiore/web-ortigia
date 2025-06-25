@@ -717,22 +717,22 @@ footer a {
 
   .content,
   .content .block {
-    margin: 0 !important;
-    padding: 0 10px !important;
+    margin: 0 ;
+    padding: 0 10px ;
   }
 
   .block h2 {
-    margin: 15px 0 10px !important;
-    padding: 0 !important;
+    margin: 15px 0 10px ;
+    padding: 0 ;
     font-size: 20px;
     text-align: center;
   }
 
   .text-img {
-    flex-direction: column !important;
-    align-items: center !important;
-    gap: 10px !important;
-    padding: 0 10px !important;
+    flex-direction: column ;
+    align-items: center ;
+    gap: 10px ;
+    padding: 0 10px ;
   }
 
 
@@ -740,23 +740,23 @@ footer a {
   .text-img2,
   .text-img1 p,
   .text-img2 p {
-    margin: 0 0 10px !important;
-    padding: 0 !important;
-    font-size: 16px !important;
-    line-height: 1.4 !important;
-    text-align: justify !important;
+    margin: 0 0 10px ;
+    padding: 0 ;
+    font-size: 16px ;
+    line-height: 1.4 ;
+    text-align: justify ;
   }
 
   
   .testo p {
-    margin: 0 0 10px !important;
-    padding: 0 !important;
-    text-align: justify !important;
+    margin: 0 0 10px ;
+    padding: 0 ;
+    text-align: justify ;
   }
 
   
   hr {
-    margin: 1em 0 !important;
+    margin: 1em 0 ;
   }
 }
 
@@ -824,12 +824,12 @@ footer a {
     line-height: 1.4;
     text-align: justify;
   }
-  /* — Itinerario: immagini sempre affiancate — */
+ 
 
 
 
 
-/* Forza 2 immagini side-by-side anche su mobile */
+
 .section-content .images-row,
 .images-row {
   display: flex;
@@ -839,59 +839,59 @@ footer a {
 }
 .section-content .images-row img,
 .images-row img {
-  flex: 0 0 48%;    /* ciascuna immagine prende il 48% della larghezza */
-  width: 48%;       /* per sicurezza */
+  flex: 0 0 48%;   
+  width: 48%;       
   margin-bottom: 10px;
 }
-/* — Forza 2 immagini affiancate nel container .images-row — */
+
 .section-content .images-row,
 .images-row {
-  display: flex !important;
-  flex-wrap: wrap !important;
-  justify-content: space-between !important;
-  margin: 10px 0 !important;
-  padding: 0 !important;
+  display: flex ;
+  flex-wrap: wrap ;
+  justify-content: space-between ;
+  margin: 10px 0 ;
+  padding: 0 ;
 }
 
 .section-content .images-row img,
 .images-row img {
-  flex: 0 0 48% !important;    /* ognuna occupa il 48% del contenitore */
-  width: 48% !important;       /* per sicurezza */
-  margin: 0 !important;        /* togliamo ogni margine pregresso */
+  flex: 0 0 48% ;    
+  width: 48% ;       
+  margin: 0 ;       
 }
 
 
 
 
 
-/* — Monumenti: immagine sopra, testo sotto — */
+
 @media (max-width: 600px) {
   .monumenti .monumento {
-    display: flex !important;
-    flex-direction: column !important;
-    align-items: center !important;
-    text-align: center !important;
-    margin: 20px 10px !important;
+    display: flex ;
+    flex-direction: column ;
+    align-items: center ;
+    text-align: center ;
+    margin: 20px 10px ;
   }
   .monumenti .monumento img {
-    order: 0 !important;
-    width: 100% !important;
-    height: auto !important;
-    margin: 0 0 10px !important;
-    padding: 0 !important;
+    order: 0 ;
+    width: 100% ;
+    height: auto ;
+    margin: 0 0 10px ;
+    padding: 0 ;
   }
   .monumenti .monumento h3 {
-    order: 1 !important;
-    font-size: 18px !important;
-    margin: 5px 0 !important;
-    padding: 0 10px !important;
+    order: 1 ;
+    font-size: 18px ;
+    margin: 5px 0 ;
+    padding: 0 10px ;
   }
   .monumenti .monumento p {
-    order: 2 !important;
-    font-size: 16px !important;
-    line-height: 1.4 !important;
-    margin: 0 0 15px !important;
-    padding: 0 10px !important;
+    order: 2 ;
+    font-size: 16px ;
+    line-height: 1.4 ;
+    margin: 0 0 15px ;
+    padding: 0 10px ;
   }
 }
 }
